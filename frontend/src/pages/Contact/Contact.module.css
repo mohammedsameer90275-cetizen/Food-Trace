@@ -1,0 +1,84 @@
+.contact{
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.contact h1{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.info,
+.formBox{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.info h2,
+.formBox h2{
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.info p{
+    margin:10px 0;
+}
+
+.info ul{
+    margin-top:15px;
+    padding-left:20px;
+}
+
+.info li{
+    margin-bottom:8px;
+}
+
+.formBox form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.formBox input,
+.formBox textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.formBox button{
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.formBox button:hover{
+    background:#1b5e20;
+}
+
+@media(max-width:768px){
+    .container{
+        grid-template-columns:1fr;
+    }
+}

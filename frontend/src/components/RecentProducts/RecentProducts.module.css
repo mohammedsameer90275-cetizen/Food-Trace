@@ -1,0 +1,261 @@
+.container{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:24px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.header h2{
+
+    font-size:24px;
+
+    color:#1F2937;
+
+    margin-bottom:5px;
+
+}
+
+.header p{
+
+    color:#6B7280;
+
+    font-size:14px;
+
+}
+
+.header button{
+
+    border:none;
+
+    background:#2E7D32;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.header button:hover{
+
+    background:#1B5E20;
+
+}
+
+.table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.table thead{
+
+    background:#2E7D32;
+
+    color:white;
+
+}
+
+.table th{
+
+    padding:16px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.table td{
+
+    padding:16px;
+
+    text-align:center;
+
+    border-bottom:1px solid #EEF2F7;
+
+}
+
+.table tbody tr{
+
+    transition:.3s;
+
+}
+
+.table tbody tr:hover{
+
+    background:#F8FFFA;
+
+}
+
+.progress{
+
+    width:90px;
+
+    height:8px;
+
+    background:#E5E7EB;
+
+    border-radius:20px;
+
+    margin:0 auto 8px;
+
+    overflow:hidden;
+
+}
+
+.fill{
+
+    height:100%;
+
+    background:linear-gradient(90deg,#22C55E,#2E7D32);
+
+    border-radius:20px;
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    padding:7px 15px;
+
+    border-radius:20px;
+
+    color:white;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+
+.fresh{
+
+    background:#22C55E;
+
+}
+
+.warning{
+
+    background:#F59E0B;
+
+}
+
+.expired{
+
+    background:#EF4444;
+
+}
+
+.good{
+
+    background:#2563EB;
+
+}
+
+.actions{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.actions svg{
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.actions svg:hover{
+
+    color:#2E7D32;
+
+    transform:scale(1.15);
+
+}
+
+.empty{
+
+    padding:60px 20px !important;
+
+    text-align:center;
+
+}
+
+.empty svg{
+
+    color:#9CA3AF;
+
+    margin-bottom:15px;
+
+}
+
+.empty h3{
+
+    color:#374151;
+
+    margin-bottom:8px;
+
+}
+
+.empty p{
+
+    color:#6B7280;
+
+}
+
+@media(max-width:992px){
+
+.table{
+
+display:block;
+
+overflow-x:auto;
+
+}
+
+.header{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:15px;
+
+}
+
+}

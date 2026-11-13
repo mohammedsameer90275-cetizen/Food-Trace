@@ -1,0 +1,69 @@
+﻿.card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    margin-top:30px;
+
+}
+
+.header{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    color:#2E7D32;
+
+    margin-bottom:20px;
+
+}
+
+.item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    margin-bottom:15px;
+
+    font-weight:600;
+
+}
+
+.success{
+
+    background:#ECFDF5;
+
+    color:#166534;
+
+}
+
+.warning{
+
+    background:#FFF7ED;
+
+    color:#B45309;
+
+}
+
+.danger{
+
+    background:#FEF2F2;
+
+    color:#B91C1C;
+
+}

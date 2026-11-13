@@ -1,0 +1,64 @@
+.container{
+
+    max-width:700px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.container h1{
+
+    margin-bottom:25px;
+
+    color:#2e7d32;
+
+}
+
+.form{
+
+    display:grid;
+
+    gap:18px;
+
+}
+
+.form input,
+.form select{
+
+    padding:14px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    font-size:15px;
+
+}
+
+.form button{
+
+    padding:14px;
+
+    background:#2e7d32;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+}

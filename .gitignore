@@ -1,0 +1,12 @@
+.venv/
+env/
+backend/.venv/
+frontend/node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+db.sqlite3
+dist/
+build/

@@ -1,0 +1,23 @@
+.card{
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.card h2{
+
+    margin-bottom:20px;
+
+    color:#1f2937;
+
+    font-size:22px;
+
+    font-weight:700;
+
+}

@@ -1,0 +1,47 @@
+.card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.card h2{
+
+    color:#2e7d32;
+
+    margin-bottom:20px;
+
+}
+
+.item{
+
+    padding:15px 0;
+
+    border-bottom:1px solid #eee;
+
+}
+
+.item:last-child{
+
+    border-bottom:none;
+
+}
+
+.item strong{
+
+    display:block;
+
+    color:#333;
+
+}
+
+.item small{
+
+    color:#888;
+
+}

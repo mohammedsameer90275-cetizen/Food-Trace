@@ -1,0 +1,20 @@
+.exportButtons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.exportButtons button{
+    padding:12px 20px;
+    border:none;
+    border-radius:12px;
+    background:#2E7D32;
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.exportButtons button:hover{
+    background:#1B5E20;
+}

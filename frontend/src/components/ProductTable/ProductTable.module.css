@@ -1,0 +1,144 @@
+﻿.container{
+    background:#ffffff;
+    border-radius:18px;
+    padding:24px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    margin-top:25px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.header h2{
+    color:#1f2937;
+    font-size:24px;
+    font-weight:700;
+}
+
+.searchBox{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:360px;
+    background:#f5f7fb;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:12px 15px;
+}
+
+.searchBox input{
+    border:none;
+    outline:none;
+    background:transparent;
+    width:100%;
+    font-size:14px;
+}
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table thead{
+    background:#2E7D32;
+    color:#ffffff;
+}
+
+.table th{
+    padding:16px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.table td{
+    padding:16px;
+    text-align:center;
+    border-bottom:1px solid #eef2f7;
+    font-size:14px;
+}
+
+.table tbody tr{
+    transition:.3s;
+}
+
+.table tbody tr:hover{
+    background:#f8fffa;
+}
+
+.progress{
+    width:90px;
+    height:8px;
+    background:#e5e7eb;
+    border-radius:20px;
+    margin:0 auto 8px;
+    overflow:hidden;
+}
+
+.fill{
+    height:100%;
+    background:linear-gradient(90deg,#2E7D32,#43A047);
+    border-radius:20px;
+}
+
+.badge{
+    padding:7px 14px;
+    border-radius:20px;
+    color:white;
+    font-size:12px;
+    font-weight:600;
+}
+
+.fresh{
+    background:#22c55e;
+}
+
+.warning{
+    background:#f59e0b;
+}
+
+.expired{
+    background:#ef4444;
+}
+
+.good{
+    background:#2563eb;
+}
+
+.actions{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+}
+
+.actions svg{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.actions svg:hover{
+    color:#2E7D32;
+    transform:scale(1.2);
+}
+
+@media(max-width:992px){
+
+    .header{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .searchBox{
+        width:100%;
+    }
+
+    .table{
+        display:block;
+        overflow-x:auto;
+    }
+
+}

@@ -1,0 +1,226 @@
+.container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+    radial-gradient(circle at top right,#66BB6A 0%,transparent 30%),
+    radial-gradient(circle at bottom left,#A5D6A7 0%,transparent 35%),
+    linear-gradient(135deg,#1B5E20,#2E7D32,#43A047);
+
+    padding:20px;
+
+}
+
+.card{
+
+    width:430px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:24px;
+
+    padding:40px;
+
+    border:1px solid rgba(255,255,255,.25);
+
+    box-shadow:0 20px 50px rgba(0,0,0,.25);
+
+}
+
+.logo{
+
+    text-align:center;
+
+    color:white;
+
+    margin-bottom:35px;
+
+}
+
+.logo svg{
+
+    margin-bottom:15px;
+
+    color:#C8E6C9;
+
+}
+
+.logo h2{
+
+    font-size:32px;
+
+    margin-bottom:8px;
+
+    font-weight:700;
+
+}
+
+.logo p{
+
+    opacity:.9;
+
+    font-size:15px;
+
+}
+
+.inputBox{
+
+    display:flex;
+
+    align-items:center;
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    transition:.3s;
+
+}
+
+.inputBox:focus-within{
+
+    box-shadow:0 0 0 3px rgba(46,125,50,.2);
+
+}
+
+.inputBox svg{
+
+    color:#2E7D32;
+
+}
+
+.inputBox input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    margin-left:12px;
+
+    font-size:15px;
+
+    background:transparent;
+
+}
+
+.eye{
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    color:#6B7280;
+
+}
+
+.loginBtn{
+
+    width:100%;
+
+    margin-top:10px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2E7D32;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.loginBtn:hover{
+
+    background:#1B5E20;
+
+    transform:translateY(-2px);
+
+}
+
+.links{
+
+    margin-top:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+}
+
+.links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    transition:.3s;
+
+}
+
+.links a:hover{
+
+    color:#E8F5E9;
+
+}
+
+@media(max-width:768px){
+
+    .card{
+
+        width:100%;
+
+        max-width:420px;
+
+        padding:30px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .logo h2{
+
+        font-size:26px;
+
+    }
+
+    .links{
+
+        flex-direction:column;
+
+        gap:12px;
+
+        text-align:center;
+
+    }
+
+}

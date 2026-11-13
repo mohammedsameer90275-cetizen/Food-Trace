@@ -1,0 +1,43 @@
+﻿.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+    margin-top:25px;
+
+}
+
+.card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.card h2{
+
+    margin-bottom:20px;
+
+    color:#1F2937;
+
+    font-size:22px;
+
+}
+
+@media(max-width:992px){
+
+.grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

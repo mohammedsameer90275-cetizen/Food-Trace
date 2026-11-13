@@ -1,0 +1,61 @@
+.container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#F5F7FB;
+
+}
+
+.card{
+
+    width:420px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.1);
+
+}
+
+.card input{
+
+    width:100%;
+
+    padding:15px;
+
+    margin:20px 0;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+}
+
+.card button{
+
+    width:100%;
+
+    padding:15px;
+
+    background:#2E7D32;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}

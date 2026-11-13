@@ -1,0 +1,11 @@
+{
+  "name": "foodtrace-django-launch-ready",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "START_FOODTRACE.cmd",
+    "frontend:dev": "npm.cmd --prefix frontend run dev -- --host 127.0.0.1 --port 5173",
+    "frontend:build": "npm.cmd --prefix frontend run build",
+    "backend:check": "backend\\.venv\\Scripts\\python.exe backend\\manage.py check"
+  }
+}
